@@ -25,11 +25,11 @@ body {
 
 #main {
   line-height: 1.8em;
+  margin: 10px;
 }
 
 #main label {
   color: #000;
-  margin-left: 10px;
 }
 
 #main input {

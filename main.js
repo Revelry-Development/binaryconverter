@@ -128,6 +128,14 @@
                 return true;
             if (ev.keyCode === 65 && ev.ctrlKey === true) // Ctrl + A
                 return true;
+            if (ev.keyCode === 67 && ev.metaKey === true) // Cmd + C
+                return true;
+            if (ev.keyCode === 67 && ev.ctrlKey === true) // Ctrl + C
+                return true;
+            if (ev.keyCode === 86 && ev.metaKey === true) // Cmd + V
+                return true;
+            if (ev.keyCode === 86 && ev.ctrlKey === true) // Ctrl + V
+                return true;
             if (ev.keyCode >= 37 && ev.keyCode <= 40) // Arrow keys
                 return true;
         }
